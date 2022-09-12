@@ -1006,6 +1006,8 @@ $number = array(
 $count = count($number);
 
 for($i=0;$i<$count;$i++){
+    $row = $i+1;
+    echo 'Baris'.$row.' , ';
     for($y=0;$y<60;$y++){
         $next = $y+1;
         if($number[$i][$y] == $number[$i][$next]){
